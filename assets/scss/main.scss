@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputs-button {
+    margin-left: 60px;
+    display: flex;
+    position: relative;
+    .button {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.specialCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .dragItems {
+        display: flex;
+
+        .circle {
+            p {
+                font-weight: bold;
+                color: white;
+                margin: 0;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 10px;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+    }
+    .dragZone {
+        .zone {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+    }
+}

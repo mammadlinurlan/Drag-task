@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/scss/main.css">
+</head>
+<body>
+    <div class="container">
+       <div class="inputs-button">
+           <div class="inputs">
+            <input type="text" id="red" class="form-control input" data-id="" style="width: 150px;" placeholder="RED:0-255" >
+            <input type="text" id="green" class="form-control input" data-id="" style="width: 150px;" placeholder="GREEN:0-255" >
+            <input type="text" id="blue" class="form-control input" data-id="" style="width: 150px;" placeholder="BLUE:0-255">
+           </div>
+           <div class="button">
+               <button type="button" class="btn btn-success ">CLICK ME</button>
+           </div>
+       </div>
+        
+        <div class="box">
+
+            
+            <div class="dragItems">
+                <div class="circle" id="special" draggable="true">
+                    <p>SPECIAL FOR JAVID</p>
+                </div>
+                <div class="circle" data-id="background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);" id="1" draggable="true" style="background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);" >
+                </div>
+                <div class="circle" data-id="background: linear-gradient(to right, #ffe000, #799f0c);" id="2" draggable="true"  style="background: linear-gradient(to right, #ffe000, #799f0c);">
+                </div>
+                <div class="circle" data-id="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);" id="3" draggable="true" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);">
+    
+                </div>
+            </div>
+            <div class="dragZone">
+                <div class="zone">
+    
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
